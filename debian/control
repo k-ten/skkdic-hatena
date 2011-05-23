@@ -1,0 +1,14 @@
+Source: skkdic-hatena
+Section: contrib/utils
+Priority: extra
+Maintainer: Hironori OKAMOTO <k.ten87@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Homepage: http://github.com/k-ten/skkdic-hatena/
+
+Package: skkdic-hatena
+Architecture: all
+Depends: ${misc:Depends}, skktools, wget
+Recommends: cron
+Description: hatena keyword dictionary for SKK
+ .
